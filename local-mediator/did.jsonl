@@ -1,0 +1,102 @@
+{
+  "versionId": "1-QmY4DxgByr18zHV2LwEb41QQNbggkLtfv6JSXhV1EFVp9N",
+  "versionTime": "2026-03-23T04:44:53Z",
+  "parameters": {
+    "method": "did:webvh:1.0",
+    "scid": "QmcdmveRTDu1cGd4z97u4jmY7gGpj6RkSxLWxr4FuYsovN",
+    "updateKeys": [
+      "z6MkmZpbyJmLebHvZmgYZBsTrEd7k8RrRKE83rnCuwsXiEHY"
+    ],
+    "portable": true,
+    "nextKeyHashes": [
+      "z6Mku9v459ySjZVT5x4Jx5GP49gnoRxwPJE9miTtsFAC9pKq"
+    ]
+  },
+  "state": {
+    "@context": [
+      "https://www.w3.org/ns/did/v1",
+      "https://www.w3.org/ns/cid/v1"
+    ],
+    "assertionMethod": [
+      "did:webvh:QmcdmveRTDu1cGd4z97u4jmY7gGpj6RkSxLWxr4FuYsovN:intrepid-ivan.github.io:local-mediator#key-0",
+      "did:webvh:QmcdmveRTDu1cGd4z97u4jmY7gGpj6RkSxLWxr4FuYsovN:intrepid-ivan.github.io:local-mediator#key-1"
+    ],
+    "authentication": [
+      "did:webvh:QmcdmveRTDu1cGd4z97u4jmY7gGpj6RkSxLWxr4FuYsovN:intrepid-ivan.github.io:local-mediator#key-0",
+      "did:webvh:QmcdmveRTDu1cGd4z97u4jmY7gGpj6RkSxLWxr4FuYsovN:intrepid-ivan.github.io:local-mediator#key-1"
+    ],
+    "id": "did:webvh:QmcdmveRTDu1cGd4z97u4jmY7gGpj6RkSxLWxr4FuYsovN:intrepid-ivan.github.io:local-mediator",
+    "keyAgreement": [
+      "did:webvh:QmcdmveRTDu1cGd4z97u4jmY7gGpj6RkSxLWxr4FuYsovN:intrepid-ivan.github.io:local-mediator#key-2",
+      "did:webvh:QmcdmveRTDu1cGd4z97u4jmY7gGpj6RkSxLWxr4FuYsovN:intrepid-ivan.github.io:local-mediator#key-3",
+      "did:webvh:QmcdmveRTDu1cGd4z97u4jmY7gGpj6RkSxLWxr4FuYsovN:intrepid-ivan.github.io:local-mediator#key-4"
+    ],
+    "service": [
+      {
+        "id": "did:webvh:QmcdmveRTDu1cGd4z97u4jmY7gGpj6RkSxLWxr4FuYsovN:intrepid-ivan.github.io:local-mediator#service",
+        "serviceEndpoint": [
+          {
+            "accept": [
+              "didcomm/v2"
+            ],
+            "uri": "https://localhost:7037"
+          },
+          {
+            "accept": [
+              "didcomm/v2"
+            ],
+            "uri": "wss://localhost:7037/ws"
+          }
+        ],
+        "type": "DIDCommMessaging"
+      },
+      {
+        "id": "did:webvh:QmcdmveRTDu1cGd4z97u4jmY7gGpj6RkSxLWxr4FuYsovN:intrepid-ivan.github.io:local-mediator#auth",
+        "serviceEndpoint": "https://localhost:7037/authenticate",
+        "type": "Authentication"
+      }
+    ],
+    "verificationMethod": [
+      {
+        "controller": "did:webvh:QmcdmveRTDu1cGd4z97u4jmY7gGpj6RkSxLWxr4FuYsovN:intrepid-ivan.github.io:local-mediator",
+        "id": "did:webvh:QmcdmveRTDu1cGd4z97u4jmY7gGpj6RkSxLWxr4FuYsovN:intrepid-ivan.github.io:local-mediator#key-0",
+        "publicKeyMultibase": "z6MknmccSA1oE9La3w9zHtqWkrArdRNrRacnQcay18yrWatY",
+        "type": "Multikey"
+      },
+      {
+        "controller": "did:webvh:QmcdmveRTDu1cGd4z97u4jmY7gGpj6RkSxLWxr4FuYsovN:intrepid-ivan.github.io:local-mediator",
+        "id": "did:webvh:QmcdmveRTDu1cGd4z97u4jmY7gGpj6RkSxLWxr4FuYsovN:intrepid-ivan.github.io:local-mediator#key-1",
+        "publicKeyMultibase": "zDnaejxjkbLcboBh4b4KcnsHR46snytBUGN51nsYBawA9DDUd",
+        "type": "Multikey"
+      },
+      {
+        "controller": "did:webvh:QmcdmveRTDu1cGd4z97u4jmY7gGpj6RkSxLWxr4FuYsovN:intrepid-ivan.github.io:local-mediator",
+        "id": "did:webvh:QmcdmveRTDu1cGd4z97u4jmY7gGpj6RkSxLWxr4FuYsovN:intrepid-ivan.github.io:local-mediator#key-2",
+        "publicKeyMultibase": "z6LSg4mCCmYDugukZGyiQQbNwkpnFGkwATDyg1eWvWuQhQ5r",
+        "type": "Multikey"
+      },
+      {
+        "controller": "did:webvh:QmcdmveRTDu1cGd4z97u4jmY7gGpj6RkSxLWxr4FuYsovN:intrepid-ivan.github.io:local-mediator",
+        "id": "did:webvh:QmcdmveRTDu1cGd4z97u4jmY7gGpj6RkSxLWxr4FuYsovN:intrepid-ivan.github.io:local-mediator#key-3",
+        "publicKeyMultibase": "zDnaerm9JkgTRShuZydiUhbza7bNucSZ1vQGJtzYzwvaLpQaG",
+        "type": "Multikey"
+      },
+      {
+        "controller": "did:webvh:QmcdmveRTDu1cGd4z97u4jmY7gGpj6RkSxLWxr4FuYsovN:intrepid-ivan.github.io:local-mediator",
+        "id": "did:webvh:QmcdmveRTDu1cGd4z97u4jmY7gGpj6RkSxLWxr4FuYsovN:intrepid-ivan.github.io:local-mediator#key-4",
+        "publicKeyMultibase": "zQ3shvBQm7J9i2fvdTe3W5LcwXTJFMQtQUDaStSYtDem4iaxJ",
+        "type": "Multikey"
+      }
+    ]
+  },
+  "proof": [
+    {
+      "type": "DataIntegrityProof",
+      "cryptosuite": "eddsa-jcs-2022",
+      "created": "2026-03-23T04:44:53Z",
+      "verificationMethod": "did:key:z6MkmZpbyJmLebHvZmgYZBsTrEd7k8RrRKE83rnCuwsXiEHY#z6MkmZpbyJmLebHvZmgYZBsTrEd7k8RrRKE83rnCuwsXiEHY",
+      "proofPurpose": "assertionMethod",
+      "proofValue": "z472mttrfeFEZqLKTvqGsrcwvWJWZECEr5gUMxaC2xqUc6kjcnfEzxKX5iBcuWCQtsHHNKa3pVxnFuizAiRPFo9CK"
+    }
+  ]
+}
